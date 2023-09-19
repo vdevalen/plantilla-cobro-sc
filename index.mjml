@@ -1,0 +1,86 @@
+<mjml font-family="Red Hat Display">
+  <mj-body>
+    <mj-container padding-left="0px" padding-right="0px">
+      <mj-section background-url="https://credinetprodstorage.blob.core.windows.net/images/templates/CABEZOTE_MAIL_NOTIFICACION_PREVIA_AL_REPORTE_EN_CENTRALES_03.png" background-size="100% auto" background-repeat="no-repeat" padding-top="0px" padding-bottom="0px">
+        <mj-column>
+          <mj-text align="left" color="#fff" font-size="28px" padding-top="130px" padding-left="80px" padding-bottom="0px" mj-class="desktop-padding-left hello-text">Hola,</mj-text>
+          <mj-text align="left" color="#fff" font-size="28px" padding-left="80px" padding-bottom="60px" mj-class="hello-text">{{nombre_cliente}}</mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column width="600px" padding-left="30px" padding-right="30px">
+          <mj-text font-size="15px" color="#575756" font-weight="bold" line-height="100%" align="center">Tenemos un recordatorio para ti</mj-text>
+          <mj-text font-size="15px" color="#575756" font-weight="300" align="justify">Ten presente el <strong>pago de la obligación N° {{creditocodigo}}</strong> correspondiente a tu crédito en el almacén <strong>{{nombre_almacen}}</strong>, que representa un <strong>saldo en mora</strong> de <strong>{{diasmora}}</strong></mj-text>  
+          <mj-text font-size="15px" color="#575756" font-weight="300" align="center" padding-bottom="0px">Te invitamos a realizar el pago para que puedas seguir disfrutando de tu cupo.</mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column>
+          <mj-table>
+            <tr style="border-bottom:1px solid #ecedee;text-align:left;padding:15px;">
+              <th align="center" style="padding: 0 15px 0 0; background-color: #00256c; color: #ffffff;">¿Dónde pagar?</th>
+              <th align="center" style="padding: 0 15px; background-color: #00256c; color: #ffffff;">¿Cómo pagar?</th>
+              <th align="center" style="padding: 20px 0 0 15px; background-color: #00256c; color: #ffffff;">...</th>
+            </tr>
+            <tr>
+              <td style="padding: 10px 15px 10px 15px; background-color: #f3f3f3;">Pago en almacén</td>
+              <td style="padding: 0 15px; background-color: #f3f3f3;">Solo en efectivo</td>
+              <td style="padding: 0 0 0 15px; background-color: #f3f3f3;"></td>
+            </tr>
+            <tr>
+              <td style="padding: 10px 15px 10px 15px; background-color: #f3f3f3;">App Sistecredito 					 personas</td>
+              <td style="padding: 0 15px; background-color: #f3f3f3;">Botón Bancolombia</td>
+              <td style="padding: 0 0 0 15px; background-color: #f3f3f3;">Débito PSE</td>
+            </tr>
+            <tr>
+              <td style="padding: 10px 15px 10px 15px; background-color: #f3f3f3;">Sitio web Sistecredito</td>
+              <td style="padding: 0 15px; background-color: #f3f3f3;">Botón Bancolombia</td>
+              <td style="padding: 0 0 0 15px; background-color: #f3f3f3;">Débito PSE</td>
+            </tr>
+            <tr>
+              <td style="padding:10px 15px 10px 15px; background-color: #f3f3f3;">Otros medios de pago</td>
+              <td style="padding: 0 15px; background-color: #f3f3f3;">EFECTY</td>
+              <td style="padding: 0 0 0 15px; background-color: #f3f3f3;">GANA</td>
+            </tr>
+          </mj-table>
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column>
+             <mj-text font-size="15px" color="#575756" font-weight="bold" line-height="100%" align="center">¿ Tienes alguna duda?
+             </mj-text>
+        </mj-column>
+      </mj-section>  
+
+      <mj-section>
+        <mj-column>
+          <mj-table>
+            <tr style="text-align:left;padding:15px;">
+              <th align="center" style="padding: 0 15px ; ; color: #ffffff;">
+                Escribenos al whatsapp</th>
+              <th align="center" style="padding: 0 15px; ; color: #ffffff;">
+                Comunícate al (+57) 320 889 9898 
+              </th>
+              <th align="center" style="padding: 0 15px; ; color: #ffffff;">
+                info@sistecredito.com
+              </th>
+            </tr>
+          </mj-table>
+        </mj-column>
+      </mj-section>
+
+      <!-- Pie de página -->
+
+
+    </mj-container>
+  </mj-body>
+
+  <mj-attributes>
+    <mj-class name="mobile-email" font-size="13px" line-height="1"></mj-class>
+    <mj-class name="hello-text" font-size="13px" padding-left="30px"></mj-class>
+  </mj-attributes>
+  <mj-breakpoint width="600px"></mj-breakpoint>
+</mjml>
