@@ -11,7 +11,7 @@
       <mj-section>
         <mj-column width="600px" padding-left="30px" padding-right="30px">
           <mj-text font-size="15px" color="#575756" font-weight="bold" line-height="100%" align="center">Tenemos un recordatorio para ti</mj-text>
-          <mj-text font-size="15px" color="#575756" font-weight="300" align="justify">Ten presente el <strong>pago de la obligación N° {{creditocodigo}}</strong> correspondiente a tu crédito en el almacén <strong>{{nombre_almacen}}</strong>, que representa un <strong>saldo en mora</strong> de <strong>{{diasmora}}</strong></mj-text>  
+          <mj-text font-size="15px" color="#575756" font-weight="300" align="justify">Ten presente el <strong>pago de la obligación N° {{creditocodigo}}</strong> correspondiente a tu crédito en el almacén <strong>{{nombre_almacen}}</strong>, que representa un <strong>saldo en mora</strong> de <strong>{{diasmora}}</strong></mj-text>
           <mj-text font-size="15px" color="#575756" font-weight="300" align="center" padding-bottom="0px">Te invitamos a realizar el pago para que puedas seguir disfrutando de tu cupo.</mj-text>
         </mj-column>
       </mj-section>
@@ -35,7 +35,7 @@
               </td>
             </tr>
             <tr>
-              <td style="padding: 10px 15px 10px 15px; background-color: #f3f3f3;">App Sistecredito 					 personas</td>
+              <td style="padding: 10px 15px 10px 15px; background-color: #f3f3f3;">App Sistecredito personas</td>
               <td style="padding: 0 15px; background-color: #f3f3f3;">Botón Bancolombia</td>
               <td style="padding: 0 0 0 15px; background-color: #f3f3f3;">Débito PSE</td>
             </tr>
@@ -55,40 +55,56 @@
 
       <mj-section>
         <mj-column>
-             <mj-text font-size="15px" color="#575756" font-weight="bold" line-height="100%" align="center">¿Tienes alguna duda?
-             </mj-text>
+          <mj-text font-size="15px" color="#575756" font-weight="bold" line-height="100%" align="center">¿Tienes alguna duda?
+          </mj-text>
         </mj-column>
-      </mj-section>  
+      </mj-section>
 
       <mj-section>
         <mj-column>
           <mj-table>
-            <tr style="text-align:"left"; padding:"15px";">
+            <tr style="text-align:" left"; padding:"15px";">
               <th align="center" font-family="Red Hat Display" style="padding: 0 15px ; ; color: #ffffff;">
-                Escribenos al whatsapp
+               <mj-text >
+                  <img  style="vertical-align: middle" src="assets/img/Whatsapp-completo.png" alt="Descripción de la imagen" width="170" height= "31" />
+                </mj-text>
+                <!-- Escríbenos al Whatsapp 320 889 9898  -->
               </th>
               <th align="center" style="padding: 0 15px; ; color: #ffffff;">
+                            <mj-text>
+                  <img style="vertical-align: middle" src="assets/img/Linea telefonica.png" alt="Descripción de la imagen" width="170" height= "31" />
+                </mj-text>
                 Comunícate al (+57) 320 889 9898
               </th>
               <th align="center" style="padding: 0 15px; ; color: #ffffff;">
+                            <mj-text>
+                  <img style="vertical-align: middle" src="assets/img/mail.png" alt="Descripción de la imagen" width="30" />
+                </mj-text>
                 info@sistecredito.com
               </th>
             </tr>
           </mj-table>
         </mj-column>
       </mj-section>
+
       <mj-section>
         <mj-column>
           <mj-table>
-            <tr style="text-align:"left"; padding:"15px";">
+            <tr style="text-align:" left"; padding:"25px";">
               <th align="center" style="padding: 0 15px; ; color: #ffffff;">
-                Comunícate al (+57) 320 889 9898
+                <mj-text>
+                  <img src="assets/img/Facebook.png" alt="Descripción de la imagen" width="30" />
+                </mj-text>
               </th>
               <th align="center" style="padding: 0 15px; ; color: #ffffff;">
-                Comunícate al (+57) 320 889 9898
+                <mj-text>
+                  <img src="assets/img/instagram.png" alt="Descripción de la imagen" width="30" />
+                </mj-text>
               </th>
               <th align="center" style="padding: 0 15px; ; color: #ffffff;">
-                info@sistecredito.com
+                <mj-text>
+                  <img src="assets/img/tik-tok.png" alt="Descripción de la imagen" width="30" />
+                </mj-text>
               </th>
             </tr>
           </mj-table>
