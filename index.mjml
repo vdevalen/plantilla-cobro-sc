@@ -25,9 +25,14 @@
               <th align="center" style="padding: 20px 0 0 15px; background-color: #00256c; color: #ffffff;">...</th>
             </tr>
             <tr>
-              <td style="padding: 10px 15px 10px 15px; background-color: #f3f3f3;">Pago en almacén</td>
-              <td style="padding: 0 15px; background-color: #f3f3f3;">Solo en efectivo</td>
-              <td style="padding: 0 0 0 15px; background-color: #f3f3f3;"></td>
+              <td style="padding: 10px 15px 10px 15px; background-color: #f3f3f3;">
+                Pago en almacén
+              </td>
+              <td style="padding: 0 15px; background-color: #f3f3f3;">
+                Solo en efectivo
+              </td>
+              <td style="padding: 0 0 0 15px; background-color: #f3f3f3;">
+              </td>
             </tr>
             <tr>
               <td style="padding: 10px 15px 10px 15px; background-color: #f3f3f3;">App Sistecredito 					 personas</td>
@@ -50,7 +55,7 @@
 
       <mj-section>
         <mj-column>
-             <mj-text font-size="15px" color="#575756" font-weight="bold" line-height="100%" align="center">¿ Tienes alguna duda?
+             <mj-text font-size="15px" color="#575756" font-weight="bold" line-height="100%" align="center">¿Tienes alguna duda?
              </mj-text>
         </mj-column>
       </mj-section>  
@@ -58,11 +63,12 @@
       <mj-section>
         <mj-column>
           <mj-table>
-            <tr style="text-align:left;padding:15px;">
-              <th align="center" style="padding: 0 15px ; ; color: #ffffff;">
-                Escribenos al whatsapp</th>
+            <tr style="text-align:"left"; padding:"15px";">
+              <th align="center" font-family="Red Hat Display" style="padding: 0 15px ; ; color: #ffffff;">
+                Escribenos al whatsapp
+              </th>
               <th align="center" style="padding: 0 15px; ; color: #ffffff;">
-                Comunícate al (+57) 320 889 9898 
+                Comunícate al (+57) 320 889 9898
               </th>
               <th align="center" style="padding: 0 15px; ; color: #ffffff;">
                 info@sistecredito.com
@@ -71,10 +77,23 @@
           </mj-table>
         </mj-column>
       </mj-section>
-
-      <!-- Pie de página -->
-
-
+      <mj-section>
+        <mj-column>
+          <mj-table>
+            <tr style="text-align:"left"; padding:"15px";">
+              <th align="center" style="padding: 0 15px; ; color: #ffffff;">
+                Comunícate al (+57) 320 889 9898
+              </th>
+              <th align="center" style="padding: 0 15px; ; color: #ffffff;">
+                Comunícate al (+57) 320 889 9898
+              </th>
+              <th align="center" style="padding: 0 15px; ; color: #ffffff;">
+                info@sistecredito.com
+              </th>
+            </tr>
+          </mj-table>
+        </mj-column>
+      </mj-section>
     </mj-container>
   </mj-body>
 
@@ -82,5 +101,7 @@
     <mj-class name="mobile-email" font-size="13px" line-height="1"></mj-class>
     <mj-class name="hello-text" font-size="13px" padding-left="30px"></mj-class>
   </mj-attributes>
-  <mj-breakpoint width="600px"></mj-breakpoint>
+
+  <mj-breakpoint width="600px">
+  </mj-breakpoint>
 </mjml>
